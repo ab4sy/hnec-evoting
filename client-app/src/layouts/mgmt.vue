@@ -1,6 +1,5 @@
 <template>
   <div class="bg-stone-300">
-    <div>aaaas</div>
     <div class="h-screen mx-auto container flex justify-center items-center">
 
 

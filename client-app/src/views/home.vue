@@ -1,5 +1,6 @@
 <template>
   <div>
+    
     <img class="w-80 mx-auto mb-8" src="@/assets/hnec.webp" alt="" srcset="" />
 
     <div>
@@ -11,7 +12,7 @@
       </div>
 
       <div>
-        <!-- <cardReqs v-if="active_tab==1"/> -->
+        <reqs v-if="active_tab==1"/>
         <votes v-if="active_tab==2"/>
         
       </div>
@@ -22,7 +23,7 @@
 <script setup lang="ts">
 import {ref} from "vue"
 
-// import cardReqs from "./card-reqs.vue"
+import reqs from "./reqs.vue"
 import votes from "./votes.vue"
 
 const active_tab = ref(1 as number);

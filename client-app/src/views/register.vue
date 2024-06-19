@@ -46,14 +46,24 @@
     
       </n-form>
 
- <n-modal v-model:show="show_modal">
+ <n-modal v-model:show="success_modal">
    <div class=" bg-white w-80 p-8 rounded-md">
     <n-result status="success" title="Success" description="Thank you for registration">
     <template  #footer>
       <div class=" my-4">We'll notify you via SMS when your e-election card is ready!</div>
-      <n-button @click="show_modal=false">Ok!</n-button>
+      <n-button @click="success_modal=false">Ok!</n-button>
     </template>
   </n-result>
+
+   </div>
+  </n-modal>
+
+ <n-modal v-model:show="otp_modal">
+   <div class=" bg-white w-80 p-8 flex flex-col gap-4 rounded-md">
+     <div class=" text-xl font-bold">Please enter otp</div>
+    <n-input v-model:value="register.phoneNo" placeholder="OTP" />
+
+      <n-button  type="primary" @click="otp_modal=false">Verfiy</n-button>
 
    </div>
   </n-modal>
@@ -73,10 +83,10 @@ import data from "../data/places.json";
 
 
 import { NForm, NFormItem, NInput, FormInst, NDatePicker, NButton , NModal, NResult, NSelect} from "naive-ui";
-const receipt_modal = ref(false);
 const receipt = ref({} as any);
 
-const show_modal = ref( false as boolean);
+const success_modal = ref( false as boolean);
+const otp_modal = ref( true as boolean);
 const register = ref({} as any);
 // const message = useMessage();
 
@@ -95,23 +105,23 @@ const register = ref({} as any);
 const form_ref = ref<FormInst | null>(null);
 
 const submit = () => {
-  form_ref.value?.validate(async (errors) => {
-    if (!errors) {
-      await api
-        .post(`/api/book/`, register.value)
-        .then(async (response: AxiosResponse) => {
-          receipt_modal.value = true;
-          receipt.value = response.data;
+  // form_ref.value?.validate(async (errors) => {
+  //   if (!errors) {
+  //     await api
+  //       .post(`/api/book/`, register.value)
+  //       .then(async (response: AxiosResponse) => {
+  //         receipt_modal.value = true;
+  //         receipt.value = response.data;
 
-          // console.log(response);
-        })
-        .catch((error: any) => {
-          console.log(error);
-          // handle error
-          // message.error(error.response.data);
-        });
-    }
-  });
+  //         // console.log(response);
+  //       })
+  //       .catch((error: any) => {
+  //         console.log(error);
+  //         // handle error
+  //         // message.error(error.response.data);
+  //       });
+  //   }
+  // });
 };
 
 onBeforeMount(async () => {});

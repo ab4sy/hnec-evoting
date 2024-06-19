@@ -8,7 +8,7 @@
 
         <span>
 
-            {{ o.name }} voted for {{ o.candted }} on {{ o.date }}
+            {{ o.name }} Has {{ o.votes }} votes
         </span>
   
        
@@ -25,20 +25,29 @@ import {ref} from "vue";
 
 // import {NButton} from "naive-ui"
 
-const dump_data = ref([{
+const dump_data = ref([
+    {
 
-    name:"Bassam Elbadri",
-    date:"25/05/2024 9:47 PM",
-    candted:"John Dpe",
+    name:"Ahmed Khalid",
+    votes:"2,356",
 
 
 },
-{
-    name:"Mohammed Alrgieg",
-    date:"25/05/2024 9:47 PM",
-    candted:"John Dpe",
+    {
 
-}
+    name:"Fathi Salem",
+    votes:"20,788",
+
+
+},
+    {
+
+    name:"Farhat Zargoun",
+    votes:"40,953",
+
+
+},
+
 
 ])
 
