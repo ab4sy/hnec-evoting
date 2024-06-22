@@ -55,11 +55,18 @@ export const arabic_with_numbers_validator = (rule: any, value: any, callback: a
 }
 
 
-export const checkout_rules: FormRules = {
-  full_name: [
+export const reg_rules: FormRules = {
+  fullName: [
     {
       required: true,
       message: "Please input your name",
+      trigger: "blur",
+    },
+  ],
+  nationalNo: [
+    {
+      required: true,
+      message: "Please input your national no",
       trigger: "blur",
     },
   ],
@@ -71,24 +78,33 @@ export const checkout_rules: FormRules = {
     },
   ],
 
-  city_id: [
+  placeOfBirth: [
+    {
+
+      required: true,
+      message: "Please selecte place of birth",
+      trigger: "blur",
+    },
+  ],
+  votingCenterId: [
     {
       type: "number",
 
       required: true,
-      message: "Please selecte city",
+      message: "Please selecte voting center",
+      trigger: "blur",
+    },
+  ],
+  dateOfBirth: [
+    {
+
+      required: true,
+      message: "Please selecte date of birth",
       trigger: "blur",
     },
   ],
 
 
-  // district_id: [
-  //   {
-  //     required: true,
-  //     message: "Please selecte district",
-  //     trigger: "blur",
-  //   },
-  // ],
   phone_number: [
     {
       required: true,
@@ -106,10 +122,31 @@ export const checkout_rules: FormRules = {
       message: "Please input your address",
       trigger: ["input", "blur"],
     },
+    // {
+    //   validator: arabic_with_numbers_validator,
+    //   trigger: ["input", "blur"],
+    // },
+  ],
+  passport: [
     {
-      validator: arabic_with_numbers_validator,
+      required: true,
+      message: "Please input your passport",
       trigger: ["input", "blur"],
     },
+
+  ],
+  phoneNo: [
+    {
+      required: true,
+      message: "Please input your phone no",
+      trigger: ["input", "blur"],
+    },
+
+        {
+      validator: phone_validator,
+      trigger: ["input", "blur"],
+    },
+
   ],
 
   email: [
@@ -117,6 +154,22 @@ export const checkout_rules: FormRules = {
     {
       validator: email_validator,
       trigger: ["input", "blur"],
+    },
+  ],
+};
+export const login_rules: FormRules = {
+  username: [
+    {
+      required: true,
+      message: "Please input your username",
+      trigger: "blur",
+    },
+  ],
+  password: [
+    {
+      required: true,
+      message: "Please input your password",
+      trigger: "blur",
     },
   ],
 };

@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repository\\hnec-evoting\\",
+  "WorkspaceRootPath": "D:\\Repository\\hnec-evoting\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|d:\\repository\\hnec-evoting\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|d:\\repository\\hnec-evoting\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6193B3B1-2A33-497A-9126-79CEFD7F49C2}|Models\\models.csproj|d:\\repository\\hnec-evoting\\api\\models\\hnecevotingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6193B3B1-2A33-497A-9126-79CEFD7F49C2}|Models\\models.csproj|solutionrelative:models\\hnecevotingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|d:\\repository\\hnec-evoting\\api\\api\\dtos\\votedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|solutionrelative:api\\dtos\\votedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|d:\\repository\\hnec-evoting\\api\\api\\dtos\\regdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|solutionrelative:api\\dtos\\regdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6193B3B1-2A33-497A-9126-79CEFD7F49C2}|Models\\models.csproj|d:\\repository\\hnec-evoting\\api\\models\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6193B3B1-2A33-497A-9126-79CEFD7F49C2}|Models\\models.csproj|solutionrelative:models\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6193B3B1-2A33-497A-9126-79CEFD7F49C2}|Models\\models.csproj|d:\\repository\\hnec-evoting\\api\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6193B3B1-2A33-497A-9126-79CEFD7F49C2}|Models\\models.csproj|solutionrelative:models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|d:\\repository\\hnec-evoting\\api\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C189A366-599C-45E1-BEE3-EAF34C0B64D7}|api\\api.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +70,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VoteDTO.cs",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\api\\dtos\\VoteDTO.cs",
+              "RelativeDocumentMoniker": "api\\dtos\\VoteDTO.cs",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\api\\dtos\\VoteDTO.cs",
+              "RelativeToolTip": "api\\dtos\\VoteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T22:37:09.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegDTO.cs",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\api\\dtos\\RegDTO.cs",
+              "RelativeDocumentMoniker": "api\\dtos\\RegDTO.cs",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\api\\dtos\\RegDTO.cs",
+              "RelativeToolTip": "api\\dtos\\RegDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T01:05:09.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HnecEvotingContext.cs",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\Models\\HnecEvotingContext.cs",
+              "RelativeDocumentMoniker": "Models\\HnecEvotingContext.cs",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\Models\\HnecEvotingContext.cs",
+              "RelativeToolTip": "Models\\HnecEvotingContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T23:43:19.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "api\\appsettings.Development.json",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\api\\appsettings.Development.json",
+              "RelativeToolTip": "api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T23:10:11.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\Models\\Vote.cs",
+              "RelativeDocumentMoniker": "Models\\Vote.cs",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\Models\\Vote.cs",
+              "RelativeToolTip": "Models\\Vote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T23:07:10.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Voter.cs",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\Models\\Voter.cs",
+              "RelativeDocumentMoniker": "Models\\Voter.cs",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\Models\\Voter.cs",
+              "RelativeToolTip": "Models\\Voter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T23:07:12.398Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\Program.cs",
+              "DocumentMoniker": "D:\\Repository\\hnec-evoting\\api\\api\\Program.cs",
               "RelativeDocumentMoniker": "api\\Program.cs",
-              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\Program.cs",
+              "ToolTip": "D:\\Repository\\hnec-evoting\\api\\api\\Program.cs",
               "RelativeToolTip": "api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAwIgAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T21:34:37.339Z",
               "EditorCaption": ""
